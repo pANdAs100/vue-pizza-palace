@@ -1,9 +1,8 @@
 <template>
-  <div class="nav-bar">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Pizza Palace</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">PIZZA PALACE</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <i class="fas fa-hamsa"></i>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
@@ -29,7 +28,6 @@
     </ul>
   </div>
 </nav>
-  </div>
 </template>
 
 <script>
@@ -39,7 +37,17 @@ export default {
 </script>
 
 <style scoped>
+  .navbar, .dropdown-menu, .navbar-toggler{
+    background-color: #105f !important;
+    color: #ff1 !important;
+  }
+
   .navbar-light .navbar-nav .nav-link{
+  background-color: #105f;
+  color: #ff1;
+  }
+
+  .navbar a{
   background-color: #105f;
   color: #ff1
   }
